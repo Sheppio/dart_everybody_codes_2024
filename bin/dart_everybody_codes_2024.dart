@@ -2,6 +2,8 @@ import 'package:args/args.dart';
 import '../src/day1.dart';
 import '../src/day2.dart';
 import '../src/day3.dart';
+import '../src/day6.dart';
+import '../src/day7.dart';
 
 const String version = '0.0.1';
 
@@ -69,5 +71,8 @@ void main(List<String> arguments) {
   // Day2.partB();
   //Day3.partA();
   //Day3.partB();
-  Day3.partC();
+  //Day3.partC();
+  //Day6.partA();
+  //Day7.partA();
+  Day7.partB();
 }
